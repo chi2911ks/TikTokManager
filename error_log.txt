@@ -1,0 +1,76 @@
+ERROR:root:Unhandled exception: <class 'AttributeError'> - 'NoneType' object has no attribute 'column'
+NoneType: None
+ERROR:root:Traceback (most recent call last):
+  File "d:/Tiktok/fMaindb.py", line 112, in searchItem
+    if item.column() == index[self.cbTypeSearch.currentText()]:
+AttributeError: 'NoneType' object has no attribute 'column'
+
+ERROR:root:Unhandled exception: <class 'ValueError'> - not enough values to unpack (expected 8, got 6)
+NoneType: None
+ERROR:root:Traceback (most recent call last):
+  File "d:/Tiktok/fMaindb.py", line 468, in addAccounts
+    username, password, mail, passmail, cookie, note, description, nameType = value
+ValueError: not enough values to unpack (expected 8, got 6)
+
+ERROR:root:Unhandled exception: <class 'ValueError'> - not enough values to unpack (expected 8, got 6)
+NoneType: None
+ERROR:root:Traceback (most recent call last):
+  File "d:/Tiktok/fMaindb.py", line 468, in addAccounts
+    username, password, mail, passmail, cookie, note, description, nameType = value
+ValueError: not enough values to unpack (expected 8, got 6)
+
+ERROR:root:Unhandled exception: <class 'ValueError'> - not enough values to unpack (expected 8, got 6)
+NoneType: None
+ERROR:root:Traceback (most recent call last):
+  File "d:/Tiktok/fMaindb.py", line 468, in addAccounts
+    username, password, mail, passmail, cookie, note, description, nameType = value
+ValueError: not enough values to unpack (expected 8, got 6)
+
+ERROR:root:Unhandled exception: <class 'TypeError'> - not all arguments converted during string formatting
+NoneType: None
+ERROR:root:Traceback (most recent call last):
+  File "d:/Tiktok/fMaindb.py", line 469, in addAccounts
+    sql_add_query = 'INSERT INTO accounts (username, password, mail, passmail, cookie, note, description, type) VALUES ("%s", "%s", "%s", "%s", "%s", "", "", "%s")'%(username, password, mail, passmail, cookie, note, description, nameType)
+TypeError: not all arguments converted during string formatting
+
+ERROR:root:Unhandled exception: <class 'AttributeError'> - 'TiktokManager' object has no attribute 'editItem'
+NoneType: None
+ERROR:root:Traceback (most recent call last):
+  File "d:/Tiktok/fMaindb.py", line 1123, in <module>
+    nuoitiktok = TiktokManager()
+  File "d:/Tiktok/fMaindb.py", line 72, in __init__
+    self.tableWidget.itemDoubleClicked.connect(self.editItem)
+AttributeError: 'TiktokManager' object has no attribute 'editItem'
+
+ERROR:root:Unhandled exception: <class 'AttributeError'> - 'NoneType' object has no attribute 'column'
+NoneType: None
+ERROR:root:Traceback (most recent call last):
+  File "d:/Tiktok/fMaindb.py", line 112, in searchItem
+    if item.column() == index[self.cbTypeSearch.currentText()]:
+AttributeError: 'NoneType' object has no attribute 'column'
+
+ERROR:root:Unhandled exception: <class 'TypeError'> - cannot unpack non-iterable int object
+NoneType: None
+ERROR:root:Traceback (most recent call last):
+  File "d:/Tiktok/fMaindb.py", line 576, in <lambda>
+    open_profile_proxy_action.triggered.connect(lambda: self.OpenProfile(True))
+  File "d:/Tiktok/fMaindb.py", line 763, in OpenProfile
+    for index, row in self.getRowSelected():
+TypeError: cannot unpack non-iterable int object
+
+ERROR:root:Unhandled exception: <class 'TypeError'> - cannot unpack non-iterable int object
+NoneType: None
+ERROR:root:Traceback (most recent call last):
+  File "d:/Tiktok/fMaindb.py", line 576, in <lambda>
+    open_profile_proxy_action.triggered.connect(lambda: self.OpenProfile(True))
+  File "d:/Tiktok/fMaindb.py", line 763, in OpenProfile
+    for index, row in self.getRowSelected():
+TypeError: cannot unpack non-iterable int object
+
+ERROR:root:Unhandled exception: <class 'TypeError'> - OpenChrome.show[int, int, str].emit(): argument 3 has unexpected type 'bool'
+NoneType: None
+ERROR:root:Traceback (most recent call last):
+  File "D:\Tiktok\fMaindb.py", line 797, in run
+    self.show.emit(self._row, 6, myip)
+TypeError: OpenChrome.show[int, int, str].emit(): argument 3 has unexpected type 'bool'
+

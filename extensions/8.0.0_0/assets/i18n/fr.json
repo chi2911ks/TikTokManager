@@ -1,0 +1,16 @@
+{
+    "connectPage": {
+        "header": "CyberGhost VPN",
+        "startConnecting": "Lancer une connexion",
+        "connected": "Connecté",
+        "disconnecting": "Déconnexion...",
+        "connecting": "Connexion en cours...",
+        "connectTo": "Se connecter à :",
+        "connectedTo": "Connecté à :"
+    },
+    "otherExtension": {
+        "header": "Avertissement Proxy !",
+        "text": "Avertissement Proxy ! Une autre extension de navigateur contrôle vos paramètres proxy, empêchant CyberGhost de fonctionner correctement. Veuillez désactiver toute extension conflictuelle.",
+        "button": "Gérer les extensions"
+    }
+}

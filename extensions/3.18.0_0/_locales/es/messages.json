@@ -1,0 +1,164 @@
+{
+   "active_user_agent": {
+      "message": "Agente de usuario activo"
+   },
+   "auto_renew": {
+      "message": "Cambiar automáticamente el User-Agent después de un período de tiempo especificado"
+   },
+   "auto_renew_interval": {
+      "message": "Tiempo (en segundos) para actualizar automáticamente el User-Agent (por ejemplo, 1 hora = 3600)"
+   },
+   "auto_renew_on_startup": {
+      "message": "Cambiar el User-Agent al iniciar el navegador"
+   },
+   "blacklist_custom_rules": {
+      "message": "Reglas personalizadas (una por línea)"
+   },
+   "blacklist_custom_rules_hint": {
+      "message": "Puede utilizar comodines como * y ?. * coincide con cualquier número de caracteres (por ejemplo, *google.com coincide con google.com, www.google.com, mail.google.com, etc.), ? coincide con un solo carácter (por ejemplo, www.?oogle.com coincide con www.oogle.com, www.moogle.com, www.google.com, www.woogle.com, etc.)."
+   },
+   "blacklist_domains": {
+      "message": "Lista de nombres de dominio (uno por línea)"
+   },
+   "blacklist_mode": {
+      "message": "Modo lista negra"
+   },
+   "blacklist_settings": {
+      "message": "Configuración de la lista negra"
+   },
+   "blacklist_settings_hint": {
+      "message": "Modo Lista Negra - conmutación habilitada en todas partes, excepto en los dominios y reglas definidos. Lista blanca - por el contrario, desactivada en todas partes excepto en los dominios & reglas especificados"
+   },
+   "bug_report": {
+      "message": "Informe de error"
+   },
+   "chrome_android": {
+      "message": "Chrome en Android"
+   },
+   "chrome_linux": {
+      "message": "Chrome en Linux"
+   },
+   "chrome_mac": {
+      "message": "Chrome en Mac"
+   },
+   "chrome_win": {
+      "message": "Chrome en Windows"
+   },
+   "custom_useragent": {
+      "message": "Utilice uno de (en el orden aleatorio) User-Agent personalizado en lugar generado"
+   },
+   "custom_useragent_list": {
+      "message": "User-Agents personalizados (establecer un User-Agents específico, uno por línea)"
+   },
+   "edge_mac": {
+      "message": "Edge en Mac"
+   },
+   "edge_win": {
+      "message": "Edge en Windows"
+   },
+   "enable_switcher": {
+      "message": "Activar conmutador"
+   },
+   "enabled_on_this_domain": {
+      "message": "Activado en este dominio"
+   },
+   "error_occurred": {
+      "message": "Se ha producido un error"
+   },
+   "firefox_android": {
+      "message": "Firefox en Android"
+   },
+   "firefox_linux": {
+      "message": "FireFox en Linux"
+   },
+   "firefox_mac": {
+      "message": "FireFox en Mac"
+   },
+   "firefox_win": {
+      "message": "FireFox en Windows"
+   },
+   "general_settings": {
+      "message": "Configuración general"
+   },
+   "general_settings_hint": {
+      "message": "Cambia el comportamiento del conmutador para adaptarlo mejor a tus necesidades"
+   },
+   "generator_settings": {
+      "message": "Ajustes del generador"
+   },
+   "generator_settings_hint": {
+      "message": "Aquí puede cambiar el comportamiento de cambio de agente"
+   },
+   "get_new_agent": {
+      "message": "Obtener nuevo agente"
+   },
+   "give_a_star_on_github": {
+      "message": "¡Danos una estrella en GitHub!"
+   },
+   "js_protection": {
+      "message": "Protección contra la detección mediante JavaScript"
+   },
+   "like_this_extension": {
+      "message": "¿Le gusta esta extensión?"
+   },
+   "make_donation": {
+      "message": "Donar"
+   },
+   "manifest_action_default_title": {
+      "message": "Aleatorice su User-Agent"
+   },
+   "manifest_command_renew_useragent": {
+      "message": "Obtener nuevo agente"
+   },
+   "manifest_description": {
+      "message": "Cambiar automáticamente el agente de usuario después de un período de tiempo especificado a uno seleccionado al azar, ocultando así su agente de usuario real"
+   },
+   "manifest_name": {
+      "message": "Random User-Agent (Switcher)"
+   },
+   "open_settings": {
+      "message": "Abrir ajustes"
+   },
+   "opera_mac": {
+      "message": "Opera en Mac"
+   },
+   "opera_win": {
+      "message": "Opera en Windows"
+   },
+   "pause_switcher": {
+      "message": "Conmutador de pausa"
+   },
+   "please_rate_extension": {
+      "message": "Por favor, valora este complemento"
+   },
+   "remote_useragent_list": {
+      "message": "Utilice uno de los User-Agents (en orden aleatorio) de la lista de la siguiente URL"
+   },
+   "remote_useragent_list_hint": {
+      "message": "La extensión lo descargará periódicamente para mantenerlo actualizado"
+   },
+   "remote_useragent_updating_interval": {
+      "message": "Intervalo de actualización (en segundos; por ejemplo, cada 3 horas = 60×60×3 = 10800)"
+   },
+   "remove": {
+      "message": "Eliminar"
+   },
+   "safari_iphone": {
+      "message": "Safari en iPhone"
+   },
+   "safari_mac": {
+      "message": "Safari en Mac"
+   },
+   "save_changes": {
+      "message": "Guardar cambios"
+   },
+   "unpause_switcher": {
+      "message": "Reanudar el cambio"
+   },
+   "update_now": {
+      "message": "Actualizar ahora"
+   },
+   "whitelist_mode": {
+      "message": "Modo de lista blanca"
+   }
+}

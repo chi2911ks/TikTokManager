@@ -1,0 +1,164 @@
+{
+   "active_user_agent": {
+      "message": "Поточний User-Agent"
+   },
+   "auto_renew": {
+      "message": "Автоматична зміна Користувача-Агента через заданий проміжок часу"
+   },
+   "auto_renew_interval": {
+      "message": "Час (в секундах) для автоматичного оновлення User-Agent (наприклад, 1 година = 3600)"
+   },
+   "auto_renew_on_startup": {
+      "message": "Зміна агента користувача при запуску браузера"
+   },
+   "blacklist_custom_rules": {
+      "message": "Користувацькі правила (по одному на рядок)"
+   },
+   "blacklist_custom_rules_hint": {
+      "message": "Ви можете використовувати підстановочні знаки, такі як * і ?. * буде відповідати будь-якій довжині символів (наприклад, *google.com буде відповідати google.com, www.google.com, mail.google.com і т.д.), ? буде відповідати тільки одному символу (наприклад, www.?oogle.com буде відповідати www.oogle.com, www.moogle.com, www.google.com, www.woogle.com і т.д.)"
+   },
+   "blacklist_domains": {
+      "message": "Список доменних імен (по одному в рядку)"
+   },
+   "blacklist_mode": {
+      "message": "Режим чорного списку"
+   },
+   "blacklist_settings": {
+      "message": "Налаштування чорного списку"
+   },
+   "blacklist_settings_hint": {
+      "message": "Режим чорного списку - перемикання включено скрізь, крім заданих доменів і правил. Білий список - навпаки, відключений всюди, крім зазначених доменів і правил"
+   },
+   "bug_report": {
+      "message": "Повідомлення про помилку"
+   },
+   "chrome_android": {
+      "message": "Chrome на Android"
+   },
+   "chrome_linux": {
+      "message": "Chrome на Linux"
+   },
+   "chrome_mac": {
+      "message": "Chrome на Mac"
+   },
+   "chrome_win": {
+      "message": "Chrome на Windows"
+   },
+   "custom_useragent": {
+      "message": "Використовувати один з (у випадковому порядку) користувацьких User-Agent замість згенерованого"
+   },
+   "custom_useragent_list": {
+      "message": "Користувацькі агенти (задати конкретних агентів, по одному на лінію)"
+   },
+   "edge_mac": {
+      "message": "Edge на Mac"
+   },
+   "edge_win": {
+      "message": "Edge на Windows"
+   },
+   "enable_switcher": {
+      "message": "Активувати розширення"
+   },
+   "enabled_on_this_domain": {
+      "message": "Включено на цьому домені"
+   },
+   "error_occurred": {
+      "message": "Виникла помилка"
+   },
+   "firefox_android": {
+      "message": "FireFox на Android"
+   },
+   "firefox_linux": {
+      "message": "FireFox на Linux"
+   },
+   "firefox_mac": {
+      "message": "FireFox на Mac"
+   },
+   "firefox_win": {
+      "message": "FireFox на Windows"
+   },
+   "general_settings": {
+      "message": "Загальні налаштування"
+   },
+   "general_settings_hint": {
+      "message": "Змініть поведінку перемикача так, щоб він найкраще відповідав вашим потребам"
+   },
+   "generator_settings": {
+      "message": "Налаштування генератора"
+   },
+   "generator_settings_hint": {
+      "message": "Тут ви можете змінити поведінку перемикання агентів"
+   },
+   "get_new_agent": {
+      "message": "Отримати нового агента"
+   },
+   "give_a_star_on_github": {
+      "message": "Поставте нам зірку на GitHub!"
+   },
+   "js_protection": {
+      "message": "Захист від виявлення JavaScript"
+   },
+   "like_this_extension": {
+      "message": "Вам подобається це розширення?"
+   },
+   "make_donation": {
+      "message": "Пожертвувати"
+   },
+   "manifest_action_default_title": {
+      "message": "Рандомізуйте свого User-Agent"
+   },
+   "manifest_command_renew_useragent": {
+      "message": "Отримати новий ідентифікатор"
+   },
+   "manifest_description": {
+      "message": "Автоматична зміна агента користувача через заданий проміжок часу на випадково обраного, таким чином приховуючи вашого реального агента користувача"
+   },
+   "manifest_name": {
+      "message": "Random User-Agent (Switcher)"
+   },
+   "open_settings": {
+      "message": "Відкрити налаштування"
+   },
+   "opera_mac": {
+      "message": "Opera на Mac"
+   },
+   "opera_win": {
+      "message": "Opera на Windows"
+   },
+   "pause_switcher": {
+      "message": "Призупинити розширення"
+   },
+   "please_rate_extension": {
+      "message": "Будь ласка, оцініть цей аддон!"
+   },
+   "remote_useragent_list": {
+      "message": "Використовуйте один User Agent (у випадковому порядку) зі списку за наступним URL"
+   },
+   "remote_useragent_list_hint": {
+      "message": "Розширення буде періодично завантажувати його для підтримки в актуальному стані"
+   },
+   "remote_useragent_updating_interval": {
+      "message": "Інтервал оновлення (в секундах; наприклад, кожні 3 години = 60×60×3 = 10800)"
+   },
+   "remove": {
+      "message": "Видалити"
+   },
+   "safari_iphone": {
+      "message": "Safari на iPhone"
+   },
+   "safari_mac": {
+      "message": "Safari на Mac"
+   },
+   "save_changes": {
+      "message": "Зберегти зміни"
+   },
+   "unpause_switcher": {
+      "message": "Запустити розширення"
+   },
+   "update_now": {
+      "message": "Оновити зараз"
+   },
+   "whitelist_mode": {
+      "message": "Режим білого списку"
+   }
+}

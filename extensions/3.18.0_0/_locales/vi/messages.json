@@ -1,0 +1,167 @@
+{
+   "active_user_agent": {
+      "message": "User-Agent hiện tại"
+   },
+   "auto_renew": {
+      "message": "Tự động thay đổi User-Agent sau một khoảng thời gian nhất định"
+   },
+   "auto_renew_interval": {
+      "message": "Thời gian (tính bằng giây) để tự động thay đổi User-Agent (vd: 1 tiếng = 3600)"
+   },
+   "auto_renew_on_startup": {
+      "message": "Thay đổi User-Agent khi khởi động trình duyệt"
+   },
+   "blacklist_custom_rules": {
+      "message": "Luật tuỳ chỉnh (mỗi dòng 1 tên)"
+   },
+   "blacklist_custom_rules_hint": {
+      "message": "Bạn có thể sử dụng kí tự đại diện như * and ?. * cho một phần của tên miền (vd: *google.com sẽ đại diện google.com, www.google.com, mail.google.com, vv), ? sẽ chi đại diện một kí tự (vd: www.?oogle.com sẽ đại diện www.oogle.com, www.moogle.com, www.google.com, www.woogle.com, vv)"
+   },
+   "blacklist_domains": {
+      "message": "Danh sách tên miền (mỗi dòng 1 tên)"
+   },
+   "blacklist_mode": {
+      "message": "Chế độ danh sách đen"
+   },
+   "blacklist_settings": {
+      "message": "Cài đặt danh sách đen"
+   },
+   "blacklist_settings_hint": {
+      "message": "Chế độ danh sách đen - cho phép ở tất cả các trang trừ những trang cho trước. Chế độ danh sách trắng - ngược lại, không cho phép ở mọi trang miền trừ những trang cho trước"
+   },
+   "bug_report": {
+      "message": "Báo lỗi"
+   },
+   "chrome_android": {
+      "message": "Chrome trên Android"
+   },
+   "chrome_linux": {
+      "message": "Chrome trên Linux"
+   },
+   "chrome_mac": {
+      "message": "Chrome trên Mac"
+   },
+   "chrome_win": {
+      "message": "Chrome trên Windows"
+   },
+   "custom_useragent": {
+      "message": "Sử dụng một trong (theo thứ tự ngẫu nhiên) những User-Agent tuỳ chỉnh thay vì tự tạo ra ngẫu nhiên"
+   },
+   "custom_useragent_list": {
+      "message": "User-Agent tuỳ chỉnh (viết các dòng User-Agent, 1 dòng 1 lần)"
+   },
+   "edge_mac": {
+      "message": "Edge trên Mac"
+   },
+   "edge_win": {
+      "message": "Edge trên Windows"
+   },
+   "enable_switcher": {
+      "message": "Cho phép thay đổi"
+   },
+   "enabled_on_this_domain": {
+      "message": "Được cho phép ở tên miền này"
+   },
+   "error_occurred": {
+      "message": "Đã xảy ra lỗi"
+   },
+   "firefox_android": {
+      "message": "Firefox trên Android"
+   },
+   "firefox_linux": {
+      "message": "FireFox trên Linux"
+   },
+   "firefox_mac": {
+      "message": "FireFox trên Mac"
+   },
+   "firefox_win": {
+      "message": "FireFox trên Windows"
+   },
+   "general_settings": {
+      "message": "Cài đặt chung"
+   },
+   "general_settings_hint": {
+      "message": "Thay đổi hành vi của bộ thay đổi sao cho phù hợp với nhu cầu của bạn"
+   },
+   "generator_settings": {
+      "message": "Cài đặt bộ tạo User-Agent"
+   },
+   "generator_settings_hint": {
+      "message": "Ở đây bạn có thể tuỳ chỉnh hành vi thay đổi"
+   },
+   "get_new_agent": {
+      "message": "Tạo User-Agent mới"
+   },
+   "give_a_star_on_github": {
+      "message": "Hãy cho chúng tôi một ngôi sao trên GitHub!"
+   },
+   "js_protection": {
+      "message": "Bảo vệ trước lỗ hổng JavaScript"
+   },
+   "like_this_extension": {
+      "message": "Bạn có thích phần mở rộng này không?"
+   },
+   "make_donation": {
+      "message": "Ủng hộ tài chính"
+   },
+   "manifest_action_default_title": {
+      "description": "User-Agent hiện tại xuất hiện khi người dùng trỏ chuột vào biểu tượng của phần mở rộng trên thanh công cụ",
+      "message": "Ngẫu nhiên hoá User-Agent"
+   },
+   "manifest_command_renew_useragent": {
+      "message": "Tạo User-Agent mới"
+   },
+   "manifest_description": {
+      "description": "Không sử dụng HTML hoặc định dạng khác; tối đa 132 kí tự",
+      "message": "Tự động thay đổi User-Agent của bạn thành một dòng được chọn ngẫu nhiên, từ đó ẩn User-Agent thực của bạn"
+   },
+   "manifest_name": {
+      "description": "Tối đa 45 kí tự",
+      "message": "User-Agent ngẫu nhiên (Thay đổi)"
+   },
+   "open_settings": {
+      "message": "Mở phần cài đặt"
+   },
+   "opera_mac": {
+      "message": "Opera trên Mac"
+   },
+   "opera_win": {
+      "message": "Opera trên Windows"
+   },
+   "pause_switcher": {
+      "message": "Tạm dừng thay đổi"
+   },
+   "please_rate_extension": {
+      "message": "Hãy đánh giá phần mở rộng này!"
+   },
+   "remote_useragent_list": {
+      "message": "Sử dụng một trong (theo thứ tự ngẫu nhiên) những User-Agent tuỳ chỉnh từ danh sách trong URL sau đây"
+   },
+   "remote_useragent_list_hint": {
+      "message": "Phần mở rộng sẽ tải về theo định kỳ để cập nhật bản mới nhất"
+   },
+   "remote_useragent_updating_interval": {
+      "message": "Khoảng thời gian cập nhật (bằng giây; vd: mỗi 3 tiếng = 60×60×3 = 10800)"
+   },
+   "remove": {
+      "message": "Xoá"
+   },
+   "safari_iphone": {
+      "message": "Safari trên iPhone"
+   },
+   "safari_mac": {
+      "message": "Safari trên Mac"
+   },
+   "save_changes": {
+      "message": "Lưu thay đổi"
+   },
+   "unpause_switcher": {
+      "message": "Tiếp tục thay đổi"
+   },
+   "update_now": {
+      "message": "Cập nhật ngay"
+   },
+   "whitelist_mode": {
+      "message": "Chế độ danh sách trắng"
+   }
+}

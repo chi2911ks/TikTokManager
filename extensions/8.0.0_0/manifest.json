@@ -1,0 +1,32 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "assets/images/cyberghost_disabled.png",
+         "16": "assets/images/cyberghost_disabled.png",
+         "48": "assets/images/cyberghost_disabled.png"
+      },
+      "default_popup": "index.html",
+      "default_title": "CyberGhost"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_security_policy": {
+      "extension_pages": "script-src 'self' ; object-src 'self' ",
+      "sandbox": "sandbox allow-scripts; script-src 'self'; object-src 'self'"
+   },
+   "default_locale": "en",
+   "description": "Unblock any restricted website with CyberGhost VPN Proxy! One-Click connect to secure your connection! Unlimited traffic –100% FREE!",
+   "host_permissions": [ "*://*/*" ],
+   "icons": {
+      "128": "assets/images/cg-128.png",
+      "16": "assets/images/cg-16.png",
+      "48": "assets/images/cg-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiWWZhFZQ1lVjUgn1AWpaQmWRHjrI9jv5WlrqhZkwiJ17MCakKCCqyyw6E3RUXH/JjfsyWnw+OALOLV4KeIaClsrYMghKDsl5sLiXSul2G0JwYQ85MIgIt7/CRfXchFWw8J4Ir8Ujtzw4ISBFDymZbBrgWD2gkVUBV3FxD3M1OKr4zpWsUMLMmM+adIn9LUvvY0tPPuK7IVRoucb2D6mih+uH53JTPO7h1+z4UsoysRoYBUa8IjYkEA14s154ACpsl5Uh2kgzWCEvk4tA+1kgVyVWu47hAJpKZLyI3ew6ORl+Cu/gvuuwFs4AetAinBC9mFw0cXdbr/LD1KokYPaYvQIDAQAB",
+   "manifest_version": 3,
+   "name": "Stay secure with CyberGhost VPN Free Proxy",
+   "permissions": [ "tabs", "storage", "alarms", "proxy" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "8.0.0"
+}

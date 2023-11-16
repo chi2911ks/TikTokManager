@@ -1,0 +1,16 @@
+{
+    "connectPage": {
+        "header": "CyberGhost VPN",
+        "startConnecting": "Pornește o conexiune",
+        "connected": "Conectat",
+        "disconnecting": "Se deconectează...",
+        "connecting": "Se conectează...",
+        "connectTo": "Conectare la:",
+        "connectedTo": "Conectare la:"
+    },
+    "otherExtension": {
+        "header": "Advertisment Proxy!",
+        "text": "Advertisment Proxy! O alta extensie contoleaza setarile tale proxy, impiedicand CyberGhost sa funtioneze. Te rog sa elimini orice extensie conflictuala.",
+        "button": "Gestioneaza Extensii"
+    }
+}

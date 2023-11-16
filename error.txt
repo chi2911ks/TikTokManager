@@ -1,0 +1,187 @@
+Traceback (most recent call last):
+  File "D:\Tiktok\fMaindb.py", line 1016, in run
+    self._this.updateRows(self._this.getData(self._row))
+TypeError: updateRows() missing 1 required positional argument: 'values'
+
+Traceback (most recent call last):
+  File "D:\Tiktok\fMaindb.py", line 1021, in run
+    self.login.ClickJsWebElement('xpath', '//button[@data-e2e="set-username-popup-confirm"]')
+  File "D:\Tiktok\autoselenium.py", line 127, in ClickJsWebElement
+    el = driver.find_elements(by, value)[index]
+IndexError: list index out of range
+
+Traceback (most recent call last):
+  File "D:\Tiktok\fMaindb.py", line 999, in run
+    if not self.login.checkLogin():
+  File "D:\Tiktok\mainTikTok.py", line 123, in checkLogin
+    self.driver.get("https://www.tiktok.com/profile")
+  File "C:\Users\Chido\AppData\Local\Programs\Python\Python38\lib\site-packages\undetected_chromedriver\__init__.py", line 673, in get
+    return super().get(url)
+  File "C:\Users\Chido\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 449, in get
+    self.execute(Command.GET, {"url": url})
+  File "C:\Users\Chido\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 440, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Chido\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 245, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: session deleted because of page crash
+from unknown error: cannot determine loading status
+from tab crashed
+  (Session info: chrome=103.0.5060.53)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x003C5FD3+2187219]
+	Ordinal0 [0x0035E6D1+1763025]
+	Ordinal0 [0x00273D40+802112]
+	Ordinal0 [0x00265C11+744465]
+	Ordinal0 [0x00264C28+740392]
+	Ordinal0 [0x00265228+741928]
+	Ordinal0 [0x0026F00F+782351]
+	Ordinal0 [0x0027A308+828168]
+	Ordinal0 [0x002CD1DF+1167839]
+	Ordinal0 [0x002BC9A6+1100198]
+	Ordinal0 [0x00296F80+946048]
+	Ordinal0 [0x00297E76+949878]
+	GetHandleVerifier [0x006690C2+2721218]
+	GetHandleVerifier [0x0065AAF0+2662384]
+	GetHandleVerifier [0x0045137A+526458]
+	GetHandleVerifier [0x00450416+522518]
+	Ordinal0 [0x00364EAB+1789611]
+	Ordinal0 [0x003697A8+1808296]
+	Ordinal0 [0x00369895+1808533]
+	Ordinal0 [0x003726C1+1844929]
+	BaseThreadInitThunk [0x75F07BA9+25]
+	RtlInitializeExceptionChain [0x7753BD3B+107]
+	RtlClearBits [0x7753BCBF+191]
+
+
+Traceback (most recent call last):
+  File "D:\Tiktok\fMaindb.py", line 1041, in run
+    self.update.updateName(name.fullname)
+  File "D:\Tiktok\updateInfo.py", line 63, in updateName
+    self.deleteText(self.__driver.find_element('xpath', '//div[@data-e2e="edit-profile-name-input"]//input'))
+  File "C:\Users\Chido\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 831, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\Chido\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 440, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Chido\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 245, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-e2e="edit-profile-name-input"]//input"}
+  (Session info: chrome=103.0.5060.53)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x01155FD3+2187219]
+	Ordinal0 [0x010EE6D1+1763025]
+	Ordinal0 [0x01003E78+802424]
+	Ordinal0 [0x01031C10+990224]
+	Ordinal0 [0x01031EAB+990891]
+	Ordinal0 [0x0105EC92+1174674]
+	Ordinal0 [0x0104CBD4+1100756]
+	Ordinal0 [0x0105CFC2+1167298]
+	Ordinal0 [0x0104C9A6+1100198]
+	Ordinal0 [0x01026F80+946048]
+	Ordinal0 [0x01027E76+949878]
+	GetHandleVerifier [0x013F90C2+2721218]
+	GetHandleVerifier [0x013EAAF0+2662384]
+	GetHandleVerifier [0x011E137A+526458]
+	GetHandleVerifier [0x011E0416+522518]
+	Ordinal0 [0x010F4EAB+1789611]
+	Ordinal0 [0x010F97A8+1808296]
+	Ordinal0 [0x010F9895+1808533]
+	Ordinal0 [0x011026C1+1844929]
+	BaseThreadInitThunk [0x752C7BA9+25]
+	RtlInitializeExceptionChain [0x775FBD3B+107]
+	RtlClearBits [0x775FBCBF+191]
+
+
+Traceback (most recent call last):
+  File "D:\Tiktok\fMaindb.py", line 1041, in run
+    self.update.updateName(name.fullname)
+  File "D:\Tiktok\updateInfo.py", line 63, in updateName
+    self.deleteText(self.__driver.find_element('xpath', '//div[@data-e2e="edit-profile-name-input"]//input'))
+  File "C:\Users\Chido\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 831, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\Chido\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 440, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Chido\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 245, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-e2e="edit-profile-name-input"]//input"}
+  (Session info: chrome=103.0.5060.53)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x01155FD3+2187219]
+	Ordinal0 [0x010EE6D1+1763025]
+	Ordinal0 [0x01003E78+802424]
+	Ordinal0 [0x01031C10+990224]
+	Ordinal0 [0x01031EAB+990891]
+	Ordinal0 [0x0105EC92+1174674]
+	Ordinal0 [0x0104CBD4+1100756]
+	Ordinal0 [0x0105CFC2+1167298]
+	Ordinal0 [0x0104C9A6+1100198]
+	Ordinal0 [0x01026F80+946048]
+	Ordinal0 [0x01027E76+949878]
+	GetHandleVerifier [0x013F90C2+2721218]
+	GetHandleVerifier [0x013EAAF0+2662384]
+	GetHandleVerifier [0x011E137A+526458]
+	GetHandleVerifier [0x011E0416+522518]
+	Ordinal0 [0x010F4EAB+1789611]
+	Ordinal0 [0x010F97A8+1808296]
+	Ordinal0 [0x010F9895+1808533]
+	Ordinal0 [0x011026C1+1844929]
+	BaseThreadInitThunk [0x752C7BA9+25]
+	RtlInitializeExceptionChain [0x775FBD3B+107]
+	RtlClearBits [0x775FBCBF+191]
+
+
+Traceback (most recent call last):
+  File "D:\Tiktok\fMaindb.py", line 1032, in run
+    bio = random.choice(file.read().splitlines())
+  File "C:\Users\Chido\AppData\Local\Programs\Python\Python38\lib\random.py", line 290, in choice
+    raise IndexError('Cannot choose from an empty sequence') from None
+IndexError: Cannot choose from an empty sequence
+
+Traceback (most recent call last):
+  File "D:\Tiktok\fMaindb.py", line 1046, in run
+    self.update.updateName(name.fullname)
+  File "D:\Tiktok\updateInfo.py", line 69, in updateName
+    sleep(1)
+  File "C:\Users\Chido\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 831, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\Chido\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 440, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Chido\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 245, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-e2e="edit-profile-name-input"]//input"}
+  (Session info: chrome=103.0.5060.53)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x01155FD3+2187219]
+	Ordinal0 [0x010EE6D1+1763025]
+	Ordinal0 [0x01003E78+802424]
+	Ordinal0 [0x01031C10+990224]
+	Ordinal0 [0x01031EAB+990891]
+	Ordinal0 [0x0105EC92+1174674]
+	Ordinal0 [0x0104CBD4+1100756]
+	Ordinal0 [0x0105CFC2+1167298]
+	Ordinal0 [0x0104C9A6+1100198]
+	Ordinal0 [0x01026F80+946048]
+	Ordinal0 [0x01027E76+949878]
+	GetHandleVerifier [0x013F90C2+2721218]
+	GetHandleVerifier [0x013EAAF0+2662384]
+	GetHandleVerifier [0x011E137A+526458]
+	GetHandleVerifier [0x011E0416+522518]
+	Ordinal0 [0x010F4EAB+1789611]
+	Ordinal0 [0x010F97A8+1808296]
+	Ordinal0 [0x010F9895+1808533]
+	Ordinal0 [0x011026C1+1844929]
+	BaseThreadInitThunk [0x752C7BA9+25]
+	RtlInitializeExceptionChain [0x775FBD3B+107]
+	RtlClearBits [0x775FBCBF+191]
+
+
+Traceback (most recent call last):
+  File "D:\Tiktok\fMaindb.py", line 1054, in run
+    self.login.ClickJsWebElement('xpath', '//button[@data-e2e="set-username-popup-confirm"]')
+  File "D:\Tiktok\autoselenium.py", line 127, in ClickJsWebElement
+    el = driver.find_elements(by, value)[index]
+IndexError: list index out of range
+
