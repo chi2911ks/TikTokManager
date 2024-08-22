@@ -1,0 +1,167 @@
+{
+   "active_user_agent": {
+      "message": "Active User-Agent"
+   },
+   "auto_renew": {
+      "message": "Automatically change the User-Agent after specified period of time"
+   },
+   "auto_renew_interval": {
+      "message": "Time (in seconds) to automatically update the User-Agent (e.g. 1 hour = 3600)"
+   },
+   "auto_renew_on_startup": {
+      "message": "Change User-Agent on browser startup"
+   },
+   "blacklist_custom_rules": {
+      "message": "Custom rules (one per line)"
+   },
+   "blacklist_custom_rules_hint": {
+      "message": "You can use wildcards such as * and ?. * will match any length of characters (e.g. *google.com will match google.com, www.google.com, mail.google.com, etc.), ? will match only a single character (e.g. www.?oogle.com will match www.oogle.com, www.moogle.com, www.google.com, www.woogle.com, etc.)"
+   },
+   "blacklist_domains": {
+      "message": "Domain names list (one per line)"
+   },
+   "blacklist_mode": {
+      "message": "Blacklist mode"
+   },
+   "blacklist_settings": {
+      "message": "Blacklist settings"
+   },
+   "blacklist_settings_hint": {
+      "message": "Blacklist mode - switching enabled everywhere, except the defined domains & rules. Whitelist - on the contrary, disabled everywhere except the specified domains & rules"
+   },
+   "bug_report": {
+      "message": "Bug report"
+   },
+   "chrome_android": {
+      "message": "Chrome on Android"
+   },
+   "chrome_linux": {
+      "message": "Chrome on Linux"
+   },
+   "chrome_mac": {
+      "message": "Chrome on Mac"
+   },
+   "chrome_win": {
+      "message": "Chrome on Windows"
+   },
+   "custom_useragent": {
+      "message": "Use one of (in the randomized order) custom User-Agent instead generated"
+   },
+   "custom_useragent_list": {
+      "message": "Custom User-Agents (set a specific User-Agents, one per line)"
+   },
+   "edge_mac": {
+      "message": "Edge on Mac"
+   },
+   "edge_win": {
+      "message": "Edge on Windows"
+   },
+   "enable_switcher": {
+      "message": "Enable Switcher"
+   },
+   "enabled_on_this_domain": {
+      "message": "Enabled on this domain"
+   },
+   "error_occurred": {
+      "message": "Error occurred"
+   },
+   "firefox_android": {
+      "message": "Firefox on Android"
+   },
+   "firefox_linux": {
+      "message": "FireFox on Linux"
+   },
+   "firefox_mac": {
+      "message": "FireFox on Mac"
+   },
+   "firefox_win": {
+      "message": "FireFox on Windows"
+   },
+   "general_settings": {
+      "message": "General settings"
+   },
+   "general_settings_hint": {
+      "message": "Change the behavior of the switcher to best fit your needs"
+   },
+   "generator_settings": {
+      "message": "Generator settings"
+   },
+   "generator_settings_hint": {
+      "message": "Here you can change the agent switching behavior"
+   },
+   "get_new_agent": {
+      "message": "Get new agent"
+   },
+   "give_a_star_on_github": {
+      "message": "Give us a star on GitHub!"
+   },
+   "js_protection": {
+      "message": "Protect against detection by JavaScript"
+   },
+   "like_this_extension": {
+      "message": "Do you like this extension?"
+   },
+   "make_donation": {
+      "message": "Donate"
+   },
+   "manifest_action_default_title": {
+      "description": "The tooltip, or title, appears when the user hovers the mouse on the extension's icon in the toolbar",
+      "message": "Randomize your User-Agent"
+   },
+   "manifest_command_renew_useragent": {
+      "message": "Get new agent"
+   },
+   "manifest_description": {
+      "description": "No HTML or other formatting; no more than 132 characters",
+      "message": "Automatically change the user agent after specified period of time to a randomly selected one, thus hiding your real user agent"
+   },
+   "manifest_name": {
+      "description": "Maximum of 45 characters",
+      "message": "Random User-Agent (Switcher)"
+   },
+   "open_settings": {
+      "message": "Open settings"
+   },
+   "opera_mac": {
+      "message": "Opera on Mac"
+   },
+   "opera_win": {
+      "message": "Opera on Windows"
+   },
+   "pause_switcher": {
+      "message": "Pause Switcher"
+   },
+   "please_rate_extension": {
+      "message": "Please, rate this addon!"
+   },
+   "remote_useragent_list": {
+      "message": "Use one of (in the randomized order) the User-Agents from the list by the following URL"
+   },
+   "remote_useragent_list_hint": {
+      "message": "The extension will periodically download it to keep it up to date"
+   },
+   "remote_useragent_updating_interval": {
+      "message": "Updating interval (in seconds; e.g. every 3 hours = 60×60×3 = 10800)"
+   },
+   "remove": {
+      "message": "Remove"
+   },
+   "safari_iphone": {
+      "message": "Safari on iPhone"
+   },
+   "safari_mac": {
+      "message": "Safari on Mac"
+   },
+   "save_changes": {
+      "message": "Save changes"
+   },
+   "unpause_switcher": {
+      "message": "Resume Switcher"
+   },
+   "update_now": {
+      "message": "Update now"
+   },
+   "whitelist_mode": {
+      "message": "Whitelist mode"
+   }
+}

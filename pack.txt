@@ -1,0 +1,7 @@
+pyarmor-7 pack -e "--onefile --window --icon=D:\\Tiktok\\logo\\tiktok.ico --exclude IPython" D:\Tiktok\fMaindb.py
+pyinstaller --onefile --window --icon=D:\\Tiktok\\logo\\tiktok.ico D:\Tiktok\fMaindb.py
+
+
+
+
+pyarmor-7 pack -e "--onefile --icon=D:\\Tiktok\\logo\\tiktok.ico --exclude IPython" Tiktok_Old.py

@@ -1,0 +1,164 @@
+{
+   "active_user_agent": {
+      "message": "Aktywny User-Agent"
+   },
+   "auto_renew": {
+      "message": "Automatyczna zmiana User-Agent po określonym czasie"
+   },
+   "auto_renew_interval": {
+      "message": "Czas (w sekundach) do automatycznej aktualizacji User-Agent (np. 1 godzina = 3600)"
+   },
+   "auto_renew_on_startup": {
+      "message": "Zmiana User-Agent przy uruchamianiu przeglądarki"
+   },
+   "blacklist_custom_rules": {
+      "message": "Reguły niestandardowe (jedna na linię)"
+   },
+   "blacklist_custom_rules_hint": {
+      "message": "Możesz użyć znaków wieloznacznych, takich jak * i ? * dopasuje dowolną długość znaków (np. *google.com dopasuje google.com, www.google.com, mail.google.com, itp.), ? dopasuje tylko pojedynczy znak (np. www.?oogle.com dopasuje www.oogle.com, www.moogle.com, www.google.com, www.woogle.com, itp.)"
+   },
+   "blacklist_domains": {
+      "message": "Lista nazw domen (jedna na linię)"
+   },
+   "blacklist_mode": {
+      "message": "Tryb czarnej listy"
+   },
+   "blacklist_settings": {
+      "message": "Ustawienia czarnej listy"
+   },
+   "blacklist_settings_hint": {
+      "message": "Tryb Blacklist - przełączanie włączone wszędzie, z wyjątkiem określonych domen i reguł. Whitelist - przeciwnie, wyłączone wszędzie poza określonymi domenami i regułami"
+   },
+   "bug_report": {
+      "message": "Zgłoszenie błędu"
+   },
+   "chrome_android": {
+      "message": "Chrome na Android"
+   },
+   "chrome_linux": {
+      "message": "Chrome na Linux"
+   },
+   "chrome_mac": {
+      "message": "Chrome na Mac"
+   },
+   "chrome_win": {
+      "message": "Chrome na Windows"
+   },
+   "custom_useragent": {
+      "message": "Użyj jednego z (w losowej kolejności) niestandardowych User-Agent zamiast generowanych"
+   },
+   "custom_useragent_list": {
+      "message": "Niestandardowi agenci użytkownika (ustawianie określonych agentów użytkownika, jeden na linię)"
+   },
+   "edge_mac": {
+      "message": "Edge na Mac"
+   },
+   "edge_win": {
+      "message": "Edge na Windows"
+   },
+   "enable_switcher": {
+      "message": "Włącz przełącznik"
+   },
+   "enabled_on_this_domain": {
+      "message": "Włączone w tej domenie"
+   },
+   "error_occurred": {
+      "message": "Wystąpił błąd"
+   },
+   "firefox_android": {
+      "message": "FireFox na Android"
+   },
+   "firefox_linux": {
+      "message": "FireFox na Linux"
+   },
+   "firefox_mac": {
+      "message": "FireFox na Mac"
+   },
+   "firefox_win": {
+      "message": "FireFox na Windows"
+   },
+   "general_settings": {
+      "message": "Ustawienia ogólne"
+   },
+   "general_settings_hint": {
+      "message": "Zmień zachowanie przełącznika, aby jak najlepiej dopasować go do swoich potrzeb"
+   },
+   "generator_settings": {
+      "message": "Ustawienia generatora"
+   },
+   "generator_settings_hint": {
+      "message": "Tutaj możesz zmienić zachowanie przełączania agentów"
+   },
+   "get_new_agent": {
+      "message": "Zdobądź nowego agenta"
+   },
+   "give_a_star_on_github": {
+      "message": "Daj nam gwiazdkę na GitHubie!"
+   },
+   "js_protection": {
+      "message": "Ochrona przed wykryciem przez JavaScript"
+   },
+   "like_this_extension": {
+      "message": "Czy podoba Ci się to rozszerzenie?"
+   },
+   "make_donation": {
+      "message": "Darowizna"
+   },
+   "manifest_action_default_title": {
+      "message": "Randomizuj swój User-Agent"
+   },
+   "manifest_command_renew_useragent": {
+      "message": "Zdobądź nowego agenta"
+   },
+   "manifest_description": {
+      "message": "Automatycznie zmienia agenta użytkownika po określonym czasie na losowo wybrany, ukrywając w ten sposób swojego prawdziwego agenta użytkownika"
+   },
+   "manifest_name": {
+      "message": "Random User-Agent (Switcher)"
+   },
+   "open_settings": {
+      "message": "Ustawienia otwarte"
+   },
+   "opera_mac": {
+      "message": "Opera na Mac"
+   },
+   "opera_win": {
+      "message": "Opera na Windows"
+   },
+   "pause_switcher": {
+      "message": "Pauza Przełącznik"
+   },
+   "please_rate_extension": {
+      "message": "Proszę, oceń ten addon!"
+   },
+   "remote_useragent_list": {
+      "message": "Użyj jednego z (w przypadkowej kolejności) User-Agentów z listy przez następujący URL"
+   },
+   "remote_useragent_list_hint": {
+      "message": "Rozszerzenie będzie okresowo pobierać ją, aby była aktualna"
+   },
+   "remote_useragent_updating_interval": {
+      "message": "Interwał aktualizacji (w sekundach; np. co 3 godziny = 60×60×3 = 10800)"
+   },
+   "remove": {
+      "message": "Usuń"
+   },
+   "safari_iphone": {
+      "message": "Safari na iPhone"
+   },
+   "safari_mac": {
+      "message": "Safari na Mac"
+   },
+   "save_changes": {
+      "message": "Zapisz zmiany"
+   },
+   "unpause_switcher": {
+      "message": "Przełącznik wznowień"
+   },
+   "update_now": {
+      "message": "Aktualizuj teraz"
+   },
+   "whitelist_mode": {
+      "message": "Tryb białej listy"
+   }
+}

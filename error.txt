@@ -1,0 +1,135 @@
+Traceback (most recent call last):
+  File "d:\Tiktok\fMaindb.py", line 1428, in run
+    self.login.loginByUsername()
+  File "d:\Tiktok\mainTikTok.py", line 209, in loginByUsername
+    if self.checkCaptcha() == "hcaptcha":
+       ^^^^^^^^^^^^^^^^^^^
+  File "d:\Tiktok\mainTikTok.py", line 93, in checkCaptcha
+    self.captchaRotating()
+  File "d:\Tiktok\captchaTiktok.py", line 121, in captchaRotating
+    self.omocaptcha.createJob(data=data)
+  File "d:\Tiktok\omocaptcha.py", line 28, in createJob
+    if not createjob["error"]: self.id = createjob["job_id"]
+           ~~~~~~~~~^^^^^^^^^
+KeyError: 'error'
+
+Traceback (most recent call last):
+  File "d:\Tiktok\uploadVideo.py", line 163, in uploadVideo
+    self.driver.switch_to.frame(self.driver.find_element('xpath', '//iframe[@data-tt="Upload_index_iframe"]'))
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chi\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 741, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chi\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Chi\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//iframe[@data-tt="Upload_index_iframe"]"}
+  (Session info: chrome=103.0.5060.53); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00955FD3+2187219]
+	Ordinal0 [0x008EE6D1+1763025]
+	Ordinal0 [0x00803E78+802424]
+	Ordinal0 [0x00831C10+990224]
+	Ordinal0 [0x00831EAB+990891]
+	Ordinal0 [0x0085EC92+1174674]
+	Ordinal0 [0x0084CBD4+1100756]
+	Ordinal0 [0x0085CFC2+1167298]
+	Ordinal0 [0x0084C9A6+1100198]
+	Ordinal0 [0x00826F80+946048]
+	Ordinal0 [0x00827E76+949878]
+	GetHandleVerifier [0x00BF90C2+2721218]
+	GetHandleVerifier [0x00BEAAF0+2662384]
+	GetHandleVerifier [0x009E137A+526458]
+	GetHandleVerifier [0x009E0416+522518]
+	Ordinal0 [0x008F4EAB+1789611]
+	Ordinal0 [0x008F97A8+1808296]
+	Ordinal0 [0x008F9895+1808533]
+	Ordinal0 [0x009026C1+1844929]
+	BaseThreadInitThunk [0x774B7BA9+25]
+	RtlInitializeExceptionChain [0x77E2C10B+107]
+	RtlClearBits [0x77E2C08F+191]
+
+
+Traceback (most recent call last):
+  File "d:\Tiktok\fMaindb.py", line 1428, in run
+    self.login.loginByUsername()
+  File "d:\Tiktok\mainTikTok.py", line 209, in loginByUsername
+    if self.checkCaptcha() == "hcaptcha":
+       ^^^^^^^^^^^^^^^^^^^
+  File "d:\Tiktok\mainTikTok.py", line 103, in checkCaptcha
+    self.captchaSameShape()
+  File "d:\Tiktok\captchaTiktok.py", line 85, in captchaSameShape
+    x1, y1, x2, y2 = result["result"].split("|")
+                     ~~~~~~^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+
+Traceback (most recent call last):
+  File "d:\Tiktok\fMaindb.py", line 1428, in run
+    self.login.loginByUsername()
+  File "d:\Tiktok\mainTikTok.py", line 209, in loginByUsername
+    if self.checkCaptcha() == "hcaptcha":
+       ^^^^^^^^^^^^^^^^^^^
+  File "d:\Tiktok\mainTikTok.py", line 103, in checkCaptcha
+    self.captchaSameShape()
+  File "d:\Tiktok\captchaTiktok.py", line 85, in captchaSameShape
+    x1, y1, x2, y2 = result["result"].split("|")
+                     ~~~~~~^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+
+Traceback (most recent call last):
+  File "d:\Tiktok\fMaindb.py", line 1423, in run
+    self.login = TikTok(
+                 ^^^^^^^
+  File "d:\Tiktok\mainTikTok.py", line 31, in __init__
+    self.getDriver(profile=self.profile, x=self.x, y=self.y, width=500, height=700, version=self.this.version_main, proxy=proxy, headless=self.this._this.fSetting.rbHidenChrome.isChecked(), chromedriver=os.path.abspath("ChromeDrivers\\103.exe"), binary_location=os.path.abspath("Data\\orbita-browser\\chrome.exe"))
+  File "d:\Tiktok\autoselenium.py", line 120, in getDriver
+    self.driver = wb.Chrome(version_main=version, headless=headless, options=options, user_data_dir=profile, use_subprocess=True, driver_executable_path=chromedriver)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chi\AppData\Local\Programs\Python\Python312\Lib\site-packages\undetected_chromedriver\__init__.py", line 468, in __init__
+    super(Chrome, self).__init__(
+  File "C:\Users\Chi\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 45, in __init__
+    super().__init__(
+  File "C:\Users\Chi\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 66, in __init__
+    super().__init__(command_executor=executor, options=options)
+  File "C:\Users\Chi\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 208, in __init__
+    self.start_session(capabilities)
+  File "C:\Users\Chi\AppData\Local\Programs\Python\Python312\Lib\site-packages\undetected_chromedriver\__init__.py", line 726, in start_session
+    super(selenium.webdriver.chrome.webdriver.WebDriver, self).start_session(
+  File "C:\Users\Chi\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 292, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chi\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Chi\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: cannot connect to chrome at 127.0.0.1:61468
+from session not created: This version of ChromeDriver only supports Chrome version 103
+Current browser version is 121.0.6107.0
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00395FD3+2187219]
+	Ordinal0 [0x0032E6D1+1763025]
+	Ordinal0 [0x00243E78+802424]
+	Ordinal0 [0x002651F9+938489]
+	Ordinal0 [0x0025E7DB+911323]
+	Ordinal0 [0x0025E5A6+910758]
+	Ordinal0 [0x002917F0+1120240]
+	Ordinal0 [0x0029144A+1119306]
+	Ordinal0 [0x0028C9A6+1100198]
+	Ordinal0 [0x00266F80+946048]
+	Ordinal0 [0x00267E76+949878]
+	GetHandleVerifier [0x006390C2+2721218]
+	GetHandleVerifier [0x0062AAF0+2662384]
+	GetHandleVerifier [0x0042137A+526458]
+	GetHandleVerifier [0x00420416+522518]
+	Ordinal0 [0x00334EAB+1789611]
+	Ordinal0 [0x003397A8+1808296]
+	Ordinal0 [0x00339895+1808533]
+	Ordinal0 [0x003426C1+1844929]
+	BaseThreadInitThunk [0x75647BA9+25]
+	RtlInitializeExceptionChain [0x7773C10B+107]
+	RtlClearBits [0x7773C08F+191]
+
+

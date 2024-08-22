@@ -1,0 +1,164 @@
+{
+   "active_user_agent": {
+      "message": "Agente de usuário ativo"
+   },
+   "auto_renew": {
+      "message": "Mudar automaticamente seu Agente de usuário após um período de tempo escolhido"
+   },
+   "auto_renew_interval": {
+      "message": "Tempo (em segundos) para alterar automaticamente seu Agente de usuário (ex. 1 hora = 3600)"
+   },
+   "auto_renew_on_startup": {
+      "message": "Alterar seu Agente de usuário na inicialização do navegador"
+   },
+   "blacklist_custom_rules": {
+      "message": "Regras personalizadas (um por linha)"
+   },
+   "blacklist_custom_rules_hint": {
+      "message": "Você pode usar caracteres especiais, tais como * e ?. * coincidirá com qualquer quantidade de caracteres (ex. *google.com coincidirá com google.com, www.google.com, mail.google.com, etc.), ? coincidirá apenas com um único caractere (ex. www.?oogle.com corresponderá com www.oogle.com, www.moogle.com, www.google.com, www.woogle.com, etc.)"
+   },
+   "blacklist_domains": {
+      "message": "Lista de nomes de domínio (um por linha)"
+   },
+   "blacklist_mode": {
+      "message": "Lista negra"
+   },
+   "blacklist_settings": {
+      "message": "Configurações de lista negra"
+   },
+   "blacklist_settings_hint": {
+      "message": "Modo de lista negra - alteração ativada em todos os lugares, menos em domínios e regras especificadas. Lista branca - ao contrário, desativada em todos os lugares, menos em domínios e regras especificadas"
+   },
+   "bug_report": {
+      "message": "Relatar falha"
+   },
+   "chrome_android": {
+      "message": "Chrome no Android"
+   },
+   "chrome_linux": {
+      "message": "Chrome no Linux"
+   },
+   "chrome_mac": {
+      "message": "Chrome no Mac"
+   },
+   "chrome_win": {
+      "message": "Chrome no Windows"
+   },
+   "custom_useragent": {
+      "message": "Use um dos Agentes de usuário personalizados em vez de predefinidos (ordem aleatória)"
+   },
+   "custom_useragent_list": {
+      "message": "Agentes de usuário personalizados (definir um Agente de usuário próprio, um por linha)"
+   },
+   "edge_mac": {
+      "message": "Edge no Mac"
+   },
+   "edge_win": {
+      "message": "Edge no Windows"
+   },
+   "enable_switcher": {
+      "message": "Ativar alteração"
+   },
+   "enabled_on_this_domain": {
+      "message": "Activado neste dominio"
+   },
+   "error_occurred": {
+      "message": "Ocorreu um erro"
+   },
+   "firefox_android": {
+      "message": "Firefox no Android"
+   },
+   "firefox_linux": {
+      "message": "Firefox no Linux"
+   },
+   "firefox_mac": {
+      "message": "Firefox no Mac"
+   },
+   "firefox_win": {
+      "message": "Firefox no Windows"
+   },
+   "general_settings": {
+      "message": "Configurações gerais"
+   },
+   "general_settings_hint": {
+      "message": "Mudar o comportamento de alteração para melhor atender às suas necessidades"
+   },
+   "generator_settings": {
+      "message": "Configurações do gerador"
+   },
+   "generator_settings_hint": {
+      "message": "Aqui você pode mudar o comportamento de alteração de Agente"
+   },
+   "get_new_agent": {
+      "message": "Alterar para outro Agente"
+   },
+   "give_a_star_on_github": {
+      "message": "Dê-nos uma estrela no GitHub!"
+   },
+   "js_protection": {
+      "message": "Proteger contra detecção por JavaScript"
+   },
+   "like_this_extension": {
+      "message": "Você gosta da extensão?"
+   },
+   "make_donation": {
+      "message": "Doar"
+   },
+   "manifest_action_default_title": {
+      "message": "Randomize seu Agente de usuário"
+   },
+   "manifest_command_renew_useragent": {
+      "message": "Alterar para outro Agente"
+   },
+   "manifest_description": {
+      "message": "Altera automaticamente seu Agente de usuário após um tempo escolhido, para um outro e portanto oculta a sua verdadeira identidade"
+   },
+   "manifest_name": {
+      "message": "Random User-Agent (Switcher)"
+   },
+   "open_settings": {
+      "message": "Abrir configurações"
+   },
+   "opera_mac": {
+      "message": "Opera no Mac"
+   },
+   "opera_win": {
+      "message": "Opera no Windows"
+   },
+   "pause_switcher": {
+      "message": "Pausar alteração"
+   },
+   "please_rate_extension": {
+      "message": "Por favor, classifique este suplemento!"
+   },
+   "remote_useragent_list": {
+      "message": "Use um dos Agentes de usuário da lista fornecida via seguinte URL (ordem aleatória)"
+   },
+   "remote_useragent_list_hint": {
+      "message": "A extensão periodicamente baixará Agentes para mantê-los atualizados"
+   },
+   "remote_useragent_updating_interval": {
+      "message": "Intervalo de atualização (em segundos; por exemplo, a cada 3 horas = 60×60×3 = 10800)"
+   },
+   "remove": {
+      "message": "Remove"
+   },
+   "safari_iphone": {
+      "message": "Safari no iPhone"
+   },
+   "safari_mac": {
+      "message": "Safari no Mac"
+   },
+   "save_changes": {
+      "message": "Salvar mudanças"
+   },
+   "unpause_switcher": {
+      "message": "Retomar alteração"
+   },
+   "update_now": {
+      "message": "Atualizar agora"
+   },
+   "whitelist_mode": {
+      "message": "Lista branca"
+   }
+}
