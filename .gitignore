@@ -6,3 +6,5 @@
 /profile/
 /Data/orbita-browser/
 /Test/
+*.json
+*.txt
