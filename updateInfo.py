@@ -18,10 +18,10 @@ class UpdateInfo:
                 self.__driver.implicitly_wait(1)
                 try:
                     self.__driver.find_element('xpath', '//div[@data-e2e="edit-profile-entrance"]//button').click()
-                except: continue
+                except: pass
                 try:
                     self.__driver.find_element('xpath', '//button[@data-e2e="edit-profile-entrance"]').click()
-                except: continue
+                except: pass
     def move_to_click(self, by, value):
         self.__driver.implicitly_wait(30)
         el = self.__driver.find_element(by, value)
