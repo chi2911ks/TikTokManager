@@ -1498,7 +1498,7 @@ class RunTiktok:
                                     )
 
                         sleep(5)
-                        self.login.ClickJsWebElement("xpath", '//*[text()="Lưu"]')
+                        self.login.ClickJsWebElement("xpath", '//*[text()="Lưu" or text()="Save"]')
                         sleep(1)
                         try:
                             self.login.ClickJsWebElement(

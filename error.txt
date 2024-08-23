@@ -16,3 +16,141 @@ Traceback (most recent call last):
          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
 IndexError: list index out of range
 
+Traceback (most recent call last):
+  File "d:\Tiktok\uploadVideo.py", line 163, in uploadVideo
+    self.driver.find_element('xpath', '//input[@accept="video/*"]').send_keys(pathVideo)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chi\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 741, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chi\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Chi\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@accept="video/*"]"}
+  (Session info: chrome=127.0.6533.73); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00978923+23283]
+	(No symbol) [0x0093E934]
+	(No symbol) [0x00870733]
+	(No symbol) [0x008B326F]
+	(No symbol) [0x008B34AB]
+	(No symbol) [0x008EEE42]
+	(No symbol) [0x008D4464]
+	(No symbol) [0x008ECB8D]
+	(No symbol) [0x008D41B6]
+	(No symbol) [0x008A8017]
+	(No symbol) [0x008A890D]
+	GetHandleVerifier [0x00A6A5F3+1013699]
+	GetHandleVerifier [0x00A73E4C+1052700]
+	GetHandleVerifier [0x00A6D4B4+1025668]
+	GetHandleVerifier [0x0099EA2B+179195]
+	(No symbol) [0x00946833]
+	(No symbol) [0x00943198]
+	(No symbol) [0x00943337]
+	(No symbol) [0x0093B4BE]
+	BaseThreadInitThunk [0x75C77BA9+25]
+	RtlInitializeExceptionChain [0x770BC10B+107]
+	RtlClearBits [0x770BC08F+191]
+
+
+Traceback (most recent call last):
+  File "d:\Tiktok\uploadVideo.py", line 163, in uploadVideo
+    self.driver.find_element('xpath', '//input[@accept="video/*"]').send_keys(pathVideo)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chi\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 741, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chi\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Chi\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@accept="video/*"]"}
+  (Session info: chrome=127.0.6533.73); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00978923+23283]
+	(No symbol) [0x0093E934]
+	(No symbol) [0x00870733]
+	(No symbol) [0x008B326F]
+	(No symbol) [0x008B34AB]
+	(No symbol) [0x008EEE42]
+	(No symbol) [0x008D4464]
+	(No symbol) [0x008ECB8D]
+	(No symbol) [0x008D41B6]
+	(No symbol) [0x008A8017]
+	(No symbol) [0x008A890D]
+	GetHandleVerifier [0x00A6A5F3+1013699]
+	GetHandleVerifier [0x00A73E4C+1052700]
+	GetHandleVerifier [0x00A6D4B4+1025668]
+	GetHandleVerifier [0x0099EA2B+179195]
+	(No symbol) [0x00946833]
+	(No symbol) [0x00943198]
+	(No symbol) [0x00943337]
+	(No symbol) [0x0093B4BE]
+	BaseThreadInitThunk [0x75C77BA9+25]
+	RtlInitializeExceptionChain [0x770BC10B+107]
+	RtlClearBits [0x770BC08F+191]
+
+
+Traceback (most recent call last):
+  File "d:\Tiktok\fMaindb.py", line 1429, in run
+    self.login.loginByUsername()
+  File "d:\Tiktok\mainTikTok.py", line 209, in loginByUsername
+    if self.checkCaptcha() == "hcaptcha":
+       ^^^^^^^^^^^^^^^^^^^
+  File "d:\Tiktok\mainTikTok.py", line 93, in checkCaptcha
+    self.captchaRotating()
+  File "d:\Tiktok\captchaTiktok.py", line 113, in captchaRotating
+    inside = src[1].get_attribute('src')
+             ~~~^^^
+IndexError: list index out of range
+
+Traceback (most recent call last):
+  File "d:\Tiktok\fMaindb.py", line 1501, in run
+    self.login.ClickJsWebElement("xpath", '//*[text()="Lưu"]')
+  File "d:\Tiktok\utils\autoselenium.py", line 134, in ClickJsWebElement
+    el = driver.find_elements(by, value)[index]
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+IndexError: list index out of range
+
+Traceback (most recent call last):
+  File "d:\Tiktok\fMaindb.py", line 1496, in run
+    self.usernameNew = self.update.updateTikTokID(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Tiktok\updateInfo.py", line 50, in updateTikTokID
+    self.__driver.find_element('xpath', '//input[@placeholder="TikTok ID"]').send_keys(tiktokID)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chi\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 741, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chi\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Chi\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder="TikTok ID"]"}
+  (Session info: chrome=127.0.6533.73); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00978923+23283]
+	(No symbol) [0x0093E934]
+	(No symbol) [0x00870733]
+	(No symbol) [0x008B326F]
+	(No symbol) [0x008B34AB]
+	(No symbol) [0x008EEE42]
+	(No symbol) [0x008D4464]
+	(No symbol) [0x008ECB8D]
+	(No symbol) [0x008D41B6]
+	(No symbol) [0x008A8017]
+	(No symbol) [0x008A890D]
+	GetHandleVerifier [0x00A6A5F3+1013699]
+	GetHandleVerifier [0x00A73E4C+1052700]
+	GetHandleVerifier [0x00A6D4B4+1025668]
+	GetHandleVerifier [0x0099EA2B+179195]
+	(No symbol) [0x00946833]
+	(No symbol) [0x00943198]
+	(No symbol) [0x00943337]
+	(No symbol) [0x0093B4BE]
+	BaseThreadInitThunk [0x75C77BA9+25]
+	RtlInitializeExceptionChain [0x770BC10B+107]
+	RtlClearBits [0x770BC08F+191]
+
+

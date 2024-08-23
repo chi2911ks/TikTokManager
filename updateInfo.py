@@ -15,11 +15,13 @@ class UpdateInfo:
                 self.__driver.find_element('xpath', '''//input[contains(@class, 'InputUpload')]''')
                 break
             except:
-                self.__driver.implicitly_wait(30)
+                self.__driver.implicitly_wait(1)
                 try:
-                    self.__driver.find_element('xpath', '//*[@data-e2e="edit-profile-entrance"]').click()
+                    self.__driver.find_element('xpath', '//div[@data-e2e="edit-profile-entrance"]//button').click()
                 except: continue
-            
+                try:
+                    self.__driver.find_element('xpath', '//button[@data-e2e="edit-profile-entrance"]').click()
+                except: continue
     def move_to_click(self, by, value):
         self.__driver.implicitly_wait(30)
         el = self.__driver.find_element(by, value)
@@ -47,7 +49,7 @@ class UpdateInfo:
             if child_element.tag_name == "input":
                 self.deleteText(self.__driver.find_element('xpath', '//div[@data-e2e="edit-profile-username-input"]//input'))
                 sleep(1)
-                self.__driver.find_element('xpath', '//input[@placeholder="TikTok ID"]').send_keys(tiktokID)
+                self.__driver.find_element('xpath', '//input[@placeholder="TikTok ID" or @placeholder="Username"]').send_keys(tiktokID)
                 sleep(1)
                 if self.checkValidTikTokID(): return tiktokID
                 else: return self.updateTikTokID(tiktokID+str(random.randint(1, 10)))

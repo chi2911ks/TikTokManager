@@ -6,3 +6,13 @@ ERROR:root:Traceback (most recent call last):
                         ^^^^^^^^^^^^^
 NameError: name 'Ui_MainWindow' is not defined
 
+ERROR:root:Unhandled exception: <class 'AttributeError'> - 'RunTiktok' object has no attribute 'usernameNew'
+NoneType: None
+ERROR:root:Traceback (most recent call last):
+  File "d:\Tiktok\fMaindb.py", line 1165, in run
+    self.runTiktok.run()
+  File "d:\Tiktok\fMaindb.py", line 1617, in run
+    self.show.emit(self._row, 1, self.usernameNew)
+                                 ^^^^^^^^^^^^^^^^
+AttributeError: 'RunTiktok' object has no attribute 'usernameNew'
+
