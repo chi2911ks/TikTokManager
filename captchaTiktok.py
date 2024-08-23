@@ -4,9 +4,9 @@ from time import sleep
 from PIL import Image
 
 import requests
-from autoselenium import AutoSelenium
-from captchaguru import CaptchaGuru
-from omocaptcha import Omocaptcha
+from utils.autoselenium import AutoSelenium
+from utils.api_captcha.captchaguru import CaptchaGuru
+from utils.api_captcha.omocaptcha import Omocaptcha
 from selenium.webdriver.common.action_chains import ActionChains
 class CapchaTiktok(AutoSelenium):
     def __init__(self, api_key, site="omocaptcha") -> None:

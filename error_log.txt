@@ -1,0 +1,8 @@
+ERROR:root:Unhandled exception: <class 'NameError'> - name 'Ui_MainWindow' is not defined
+NoneType: None
+ERROR:root:Traceback (most recent call last):
+  File "d:\Tiktok\fMaindb.py", line 60, in <module>
+    class TiktokManager(Ui_MainWindow):
+                        ^^^^^^^^^^^^^
+NameError: name 'Ui_MainWindow' is not defined
+

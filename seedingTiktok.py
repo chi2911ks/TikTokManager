@@ -1,6 +1,6 @@
 import random
 import traceback
-from autoselenium import AutoSelenium
+from utils.autoselenium import AutoSelenium
 from time import sleep, perf_counter
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys

@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
 import datetime
 from time import sleep
-from autoselenium import AutoSelenium
+from utils.autoselenium import AutoSelenium
 from captchaTiktok import CapchaTiktok
 from config import Config
-from databasehandle import DataBaseHandleTikTok
+from utils.databasehandle import DataBaseHandleTikTok
 from uploadVideo import UploadVideoTiktok
-from omocaptcha import Omocaptcha
+from utils.api_captcha.omocaptcha import Omocaptcha
 import os
-from gologin import Gologin
+from utils.gologin import Gologin
 from PyQt5 import QtCore
 semaWrite = QtCore.QSemaphore(1)
 class TikTok(CapchaTiktok):

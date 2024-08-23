@@ -11,20 +11,21 @@ from time import sleep
 import typing
 from PyQt5 import QtWidgets, QtCore, QtGui
 from PyQt5.QtCore import QObject, Qt
-from Ui_fAddAccounts import Ui_fAddAccounts
-from Ui_fTiktok import Ui_MainWindow
-from Ui_fSettings import Ui_fSettings
-from Ui_fSettingUpload import Ui_fUpload
-from Ui_fProxy import Ui_fProxy
-from Ui_fSeeding import Ui_fSeeding
-from Ui_fUpdate import Ui_fUpdateInfo
-from databasehandle import DataBaseHandleTikTok
-from generatorName import GeneratorName
-from gologin import Gologin
+
+from GUI.fAddAccounts_ui import Ui_fAddAccounts
+from GUI.fProxy_ui import Ui_fProxy
+from GUI.fSeeding_ui import Ui_fSeeding
+from GUI.fSettingUpload_ui import Ui_fUpload
+from GUI.fSettings_ui import Ui_fSettings
+from GUI.fTiktok_ui import Ui_MainWindow
+from GUI.fUpdate_ui import Ui_fUpdateInfo
+from utils.databasehandle import DataBaseHandleTikTok
+from utils.generatorName import GeneratorName
+from utils.gologin import Gologin
 from mainTikTok import TikTok
-from omocaptcha import Omocaptcha
+from utils.api_captcha.omocaptcha import Omocaptcha
 from config import Config
-from postionChrome import setPositionChrome
+from utils.postionChrome import setPositionChrome
 from proxy import Proxy
 from typing import Union, Dict
 from datetime import datetime
@@ -556,7 +557,7 @@ class TiktokManager(Ui_MainWindow):
 
     def addAccounts(self):
         # self.tableWidget.itemChanged.connect(lambda: print("Tắt itemchanged"))
-        conn = sqlite3.connect("data.db")
+        conn = sqlite3.connect("data\\data.db")
         cursor = conn.cursor()
         data = self.fAddAccounts.plainTextData.toPlainText().splitlines()
         if data != 0:

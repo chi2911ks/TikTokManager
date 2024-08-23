@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "d:\Tiktok\fMaindb.py", line 1429, in run
+    self.login.loginByUsername()
+  File "d:\Tiktok\mainTikTok.py", line 209, in loginByUsername
+    if self.checkCaptcha() == "hcaptcha":
+       ^^^^^^^^^^^^^^^^^^^
+  File "d:\Tiktok\mainTikTok.py", line 94, in checkCaptcha
+    if not self.checkSuccessCaptcha(): return self.checkCaptcha()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Tiktok\captchaTiktok.py", line 33, in checkSuccessCaptcha
+    self.refreshCaptcha()
+  File "d:\Tiktok\captchaTiktok.py", line 62, in refreshCaptcha
+    self.ClickJsWebElement('xpath', '//span[text()="Làm mới"]')
+  File "d:\Tiktok\utils\autoselenium.py", line 134, in ClickJsWebElement
+    el = driver.find_elements(by, value)[index]
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+IndexError: list index out of range
+

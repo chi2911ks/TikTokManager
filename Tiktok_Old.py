@@ -6,10 +6,10 @@ import typing
 from PyQt5 import QtWidgets, QtCore
 from PyQt5.QtCore import QObject, Qt
 from Ui_tiktok import Ui_MainWindow
-from omocaptcha import Omocaptcha
+from utils.api_captcha.omocaptcha import Omocaptcha
 from config import Config
 from mainOld import TikTok
-from postionChrome import setPositionChrome
+from utils.postionChrome import setPositionChrome
 from uploadVideo import UploadVideoTiktok
 import traceback
 import requests
