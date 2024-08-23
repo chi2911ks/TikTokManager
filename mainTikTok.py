@@ -164,7 +164,7 @@ class TikTok(CapchaTiktok):
             return self.addCookie()
         self.this.show.emit(self.row, self.this._this.col_status, "Bắt đầu đăng nhập tài khoản...")
 
-        self.driver.get("https://www.tiktok.com/login/phone-or-email/email")
+        self.driver.get("https://www.tiktok.com/login/phone-or-email/email?lang=vi-VN")
         while True:
             self.driver.implicitly_wait(1)
             try:

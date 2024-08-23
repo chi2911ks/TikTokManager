@@ -17,7 +17,7 @@ class UpdateInfo:
             except:
                 self.__driver.implicitly_wait(30)
                 try:
-                    self.__driver.find_element('xpath', '//div[@data-e2e="edit-profile-entrance"]//button').click()
+                    self.__driver.find_element('xpath', '//*[@data-e2e="edit-profile-entrance"]').click()
                 except: continue
             
     def move_to_click(self, by, value):
@@ -38,7 +38,7 @@ class UpdateInfo:
         img = os.path.join(path, file)
         self.__driver.find_element('xpath', "//input[contains(@class, 'InputUpload')]").send_keys(img)
         sleep(2)
-        self.move_to_click('xpath', '//*[text()="Đăng ký"]')
+        self.move_to_click('xpath', '//*[text()="Đăng ký" or text()="Apply"]')
         # sleep(2)
         # self.move_to_click('xpath', '//*[text()="Lưu"]')
     def updateTikTokID(self, tiktokID):

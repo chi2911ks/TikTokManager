@@ -19,18 +19,17 @@ class UploadVideoTiktok(AutoSelenium):
         while True:
             sleep(0.25)
             try:
-                if self.driver.find_element('xpath', '//*[text()="Chỉnh sửa video"]').is_displayed():
+                if self.driver.find_element('xpath', '//*[text()="Chỉnh sửa video" or text()="Edit video" or text()="Change video"]').is_displayed():
                     return True
             except: continue
     def __upload(self):
+        chk = ["Your video has been uploaded", "Video đã được lên lịch!", "Việc bạn rời trang không gây gián đoạn cho quá trình đăng video"] 
         for i in range(10): 
-            
-            self.ClickJsWebElement('xpath', '//*[text()="Đăng" or text()="Lịch biểu"]')
+            self.ClickJsWebElement('xpath', '//*[text()="Đăng" or text()="Lịch biểu" or text()="Post"]')
             sleep(0.5)
-
             if "Đã thử tải lên quá nhiều lần. Vui lòng thử lại sau." in self.driver.page_source:
                 return False
-            elif "Việc bạn rời trang không gây gián đoạn cho quá trình đăng video" in self.driver.page_source or "Video đã được lên lịch!" in self.driver.page_source: 
+            elif chk[0] in self.driver.page_source or chk[1] in self.driver.page_source or chk[2] in self.driver.page_source: 
                 return True
         return False
     def __checkUploadSuccess(self):
@@ -43,8 +42,8 @@ class UploadVideoTiktok(AutoSelenium):
                 self.driver.find_element('xpath', '//*[text()="Để sau"]').click()
             except: pass
             try:
-                self.driver.find_elements('xpath', '//*[text()="Tải video khác lên" or text()="Video của bạn đã được tải lên"]')[-1].click()
-                self.driver.find_elements('xpath', '//*[text()="Tải lên"]')[-1].click()
+                self.driver.find_elements('xpath', '//*[text()="Tải video khác lên" or text()="Video của bạn đã được tải lên" or text()="Your video has been uploaded"]')[-1].click()
+                self.driver.find_elements('xpath', '//*[text()="Tải lên" or text()="Upload"]')[-1].click()
                 sleep(5)
                 return True
             except: continue
@@ -55,13 +54,12 @@ class UploadVideoTiktok(AutoSelenium):
         self.driver.find_element('xpath', '//input[@id="tux-3" and @type="checkbox"]').click()
         try:
             self.driver.implicitly_wait(1)
-            self.driver.find_element('xpath', '//*[text()="Cho phép"]').click()
+            self.driver.find_element('xpath', '//*[text()="Cho phép" or text()="Allow"]').click()
         except: pass
         self.driver.implicitly_wait(30)
         sleep(1)
         self.driver.find_element('xpath', '//div[contains(@class, "time-picker-input picker-input")]').click()
-        
-        
+
         # minuteValid = ["00", "05", "10", "15", "20", "25", "30", "35", "40", "45", "50", "55"]
         # hourValid = ["00", "01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23"]
         if len(str(hour)) == 1: hour = "0"+str(hour)
@@ -78,9 +76,7 @@ class UploadVideoTiktok(AutoSelenium):
         self.driver.find_element('xpath', '//div[contains(@class, "date-picker-input picker-input")]').click()
         sleep(1)
         self.driver.find_elements('xpath', '//div[contains(@class, "day-span-container")]//span[text()="%s"]'%day)[-1].click()
-        
         sleep(1)
-
         if 'Lên lịch trước ít nhất 15 phút' in self.driver.page_source: return False
         # sleep(100)
         return True
@@ -130,19 +126,19 @@ class UploadVideoTiktok(AutoSelenium):
         # sleep(1)
     def content(self, nd):
         sleep(1)
-        while True:
-            try:
-                self.driver.implicitly_wait(0.1)
-                self.driver.find_element('xpath', '//*[text()="Để sau"]').click()
-            except: pass
-            try:
-                # print(self.driver.find_element('xpath', '//*[@data-contents="true"]').text)
+        # while True:
+        #     try:
+        #         self.driver.implicitly_wait(0.1)
+        #         self.driver.find_element('xpath', '//*[text()="Để sau"]').click()
+        #     except: pass
+        #     try:
+        #         # print(self.driver.find_element('xpath', '//*[@data-contents="true"]').text)
                 
-                self.driver.find_element('xpath', '//div[@aria-autocomplete="list"]').send_keys(Keys.CONTROL+"a")
-                self.driver.find_element('xpath', '//div[@aria-autocomplete="list"]').send_keys(Keys.DELETE)
-                if self.driver.find_element('xpath', '//*[@data-contents="true"]').text == "": break
+        #         self.driver.find_element('xpath', '//div[@aria-autocomplete="list"]').send_keys(Keys.CONTROL+"a")
+        #         self.driver.find_element('xpath', '//div[@aria-autocomplete="list"]').send_keys(Keys.DELETE)
+        #         if self.driver.find_element('xpath', '//*[@data-contents="true"]').text == "": break
                 
-            except: pass
+        #     except: pass
         # ActionChains(self.driver).click(self.driver.find_element('xpath', '//*[@data-contents="true"]')).send_keys(Keys.DELETE).perform()
        
         sleep(3)

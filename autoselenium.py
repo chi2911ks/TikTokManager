@@ -75,7 +75,7 @@ class AutoSelenium:
         options.add_argument('--password-store-basic')
         options.add_argument('--no-service-autorun')
         # options.add_argument('--lang=en-US') 
-        # options.add_argument('--disable-gpu')
+        options.add_argument('--disable-gpu')
         options.add_argument('--disable-cpu') 
         prefs = {
             "credentials_enable_service": False,
